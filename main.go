@@ -25,7 +25,14 @@ func main() {
 		tempo:        "7 minutos",
 	}
 
+	ovoFrito := receita{
+		nome:         "ovo frito",
+		ingredientes: "ovo e azeite",
+		tempo:        "5 minutos",
+	}
+
 	fmt.Println(brigadeiro)
 	fmt.Println(miojo)
+	fmt.Println(ovoFrito)
 
 }
