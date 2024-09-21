@@ -31,8 +31,14 @@ func main() {
 		tempo:        "5 minutos",
 	}
 
+	sucoDeMorango := receita{
+		nome:         "Suco de Morango",
+		ingredientes: "morango, água e açúcar",
+		tempo:        "10 minutos",
+	}
+
 	fmt.Println(brigadeiro)
 	fmt.Println(miojo)
 	fmt.Println(ovoFrito)
-
+	fmt.Println(sucoDeMorango)
 }
